@@ -3,3 +3,10 @@ spring:
     name: demo_spring
 server:
   port: 8080
+
+token:
+   secret: secret
+   issuer: com.example.authdemo
+
+cors:
+  allowOrigin: "*"
