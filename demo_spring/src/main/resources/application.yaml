@@ -7,6 +7,3 @@ server:
 token:
    secret: secret
    issuer: com.example.authdemo
-
-cors:
-  allowOrigin: "*"
